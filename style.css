@@ -1,0 +1,459 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar-custom {
+  background-color: rgba(14, 111, 167, 0.7);
+  font-family: "League Spartan", sans-serif;
+  display: flex;
+  justify-content: end;
+}
+
+.outer-container {
+  position: relative;
+  width: 100%;
+}
+
+.background-img {
+  background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/110/191/original/landscape.jpeg?1705001063");
+  width: 100vw;
+  height: 100vh;
+}
+
+.dark-style {
+  background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/110/195/original/kamagalhaes_Studio_ghibli_style_A_night_time_landscape_on_a_far_66f154dc-2fe7-4db1-8f9c-9680430303bf.png?1705003640");
+  width: 100vw;
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.dark-mode {
+  background: rgb(58, 57, 57);
+}
+
+#change-background-button {
+  font-size: 12px;
+  padding: 5px;
+  background-color: transparent;
+  border: 2px solid #000000;
+  border-radius: 8px;
+  font-family: "League Spartan", sans-serif;
+  cursor: pointer;
+  z-index: 99;
+}
+
+#change-background-button:hover {
+  background: radial-gradient(
+    circle,
+    rgb(245, 215, 228) 10%,
+    rgb(204, 250, 250) 90%
+  );
+  color: #fff;
+}
+
+.heading {
+  color: #fff;
+  position: absolute;
+  text-align: center;
+  top: 15%;
+  width: 100%;
+}
+
+.heading h1 {
+  font-family: "Chewy", sans-serif;
+  font-size: 9vw;
+  color: #d48e8d;
+}
+
+.heading h2 {
+  font-size: 3.5vw;
+  color: #ffffff;
+  font-family: "Great Vibes", sans-serif;
+  text-shadow: 1px 1px 2px pink;
+  margin: 0 auto;
+}
+
+.heading h3 {
+  color: #fff;
+  font-family: "League Spartan", sans-serif;
+  font-size: 2vw;
+}
+
+.animated {
+  position: absolute;
+  top: 10%;
+  transform: scale(1.1);
+}
+
+.animal-icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  position: absolute;
+  height: 100%;
+  top: 55%;
+  width: 100%;
+}
+
+.animal-icons img {
+  max-width: 14vw;
+}
+
+.pig-icon {
+  border-radius: 50%;
+}
+
+.pig-icon:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.lamb-icon {
+  border-radius: 50%;
+}
+
+.lamb-icon:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+.cow-icon {
+  border-radius: 50%;
+}
+
+.cow-icon:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+.chicken-icon {
+  border-radius: 50%;
+}
+
+.chicken-icon:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+.benefits-text {
+  background-color: #3d3b3b;
+  color: #fff;
+  font-family: "Monteserrat light", "Courier New", Courier, monospace;
+  overflow-x: hidden;
+}
+
+.benefits-text h1 {
+  font-family: Aleo, Arial;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 4vw;
+  padding-top: 30px;
+  padding-bottom: 0px;
+  margin-bottom: 5px;
+}
+
+.benefits-text p {
+  font-size: 25px;
+  text-align: justify;
+  padding: 15px;
+}
+
+.text-flex {
+  display: flex;
+  flex-direction: row;
+}
+
+.text-flex .text-one,
+.text-two {
+  font-size: 25px;
+  padding: 30px;
+  text-align: justify;
+}
+
+.benefits-text h2 {
+  font-size: 2.5vw;
+  text-align: center;
+  padding: 30px;
+}
+
+.cows-section {
+  display: flex;
+  flex-direction: row;
+  padding: 50px;
+  margin: 30px auto;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.cow-info-1 {
+  background-image: linear-gradient(
+      rgba(255, 255, 255, 0.5),
+      rgba(255, 255, 255, 0.5)
+    ),
+    url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/110/220/original/kamagalhaes_a_landscape_beautiful_peaceful_soft_colors_studio_g_7050b9b0-c63b-4ff1-9dfc-fdb4ca2326b3.png?1705015187");
+  border-radius: 2% 2% 50% 50%;
+  max-width: 30vw;
+}
+
+.cow-info-1 ul {
+  font-size: 18px;
+  text-align: center;
+  font-family: Aleo, Arial;
+  margin: 80px auto;
+  padding: 50px;
+}
+
+.cow-img h2 {
+  font-size: 6vw;
+  text-align: center;
+  font-family: "Great Vibes", Arial, Helvetica, sans-serif;
+}
+
+.cow-img img {
+  max-width: 30vw;
+  max-height: 70vh;
+}
+
+.cow-info-2 {
+  background-image: linear-gradient(
+      rgba(255, 255, 255, 0.5),
+      rgba(255, 255, 255, 0.5)
+    ),
+    url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/110/221/original/kamagalhaes_a_landscape_beautiful_peaceful_soft_colors_studio_0e2acc26-f081-4ccf-a7f4-6f0f030524d4_2.png?1705015240");
+  border-radius: 50% 50% 2% 2%;
+  max-width: 30vw;
+}
+
+.cow-info-2 ul {
+  font-size: 18px;
+  text-align: center;
+  font-family: Aleo, Arial;
+  margin: 100px auto;
+  padding: 80px;
+}
+
+.recipes {
+  padding: 50px;
+  margin: 30px auto;
+  text-align: center;
+  background-color: #3d3b3b;
+  width: 100vw;
+  border-radius: 8px;
+}
+
+.recipes h2 {
+  font-family: "Great Vibes", sans-serif;
+  font-size: 3vw;
+  color: #fff;
+}
+
+.recipes p {
+  font-family: Aleo, Arial;
+  font-size: 2vw;
+  color: #fff;
+}
+
+.recipe-images {
+  width: 40vw;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.recipe-images img {
+  border-radius: 10%;
+  object-fit: cover;
+  transition: all 250ms ease-in-out;
+}
+
+.recipe-images .first-recipe-image {
+  width: 100%;
+  height: 90%;
+  margin: 25px auto;
+}
+
+.recipe-images img:hover {
+  filter: contrast(60%);
+  transform: scale(1.2);
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 20px;
+  align-items: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.grid img {
+  width: 100%;
+  height: 100%;
+  border-radius: 12px;
+  box-shadow: 10px 5px 5px rgb(0, 0, 0);
+}
+
+.grid-img {
+  position: relative;
+}
+
+.image-title {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.grid-img:hover .image-title {
+  opacity: 1;
+}
+
+.forest-background {
+  background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/110/318/original/download.jpg?1705099923");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.forest-background p,
+.forest-background h1,
+.forest-background .text-one,
+.forest-background .text-two {
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.last-container {
+  align-items: center;
+  justify-content: center;
+  background-color: #3d3b3b;
+  display: flex;
+  flex-direction: column;
+  height: 600px;
+  overflow: hidden;
+}
+
+.last-container img {
+  margin: 15px auto;
+  border-radius: 8px;
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+  font-size: 16px;
+  font-family: Aleo, Arial;
+  margin: 10px auto;
+}
+
+footer .coder {
+  width: 50%;
+  padding: 10px;
+  text-align: center;
+  color: #d48e8d;
+}
+
+footer a {
+  color: rgb(98, 143, 127);
+}
+
+@media only screen and (max-width: 767px) {
+  .animated img {
+    width: 30vw;
+  }
+
+  .background-img {
+    width: 100vw;
+    height: 70vh;
+    background-size: cover;
+  }
+
+  .container {
+    height: 70%;
+  }
+
+  .heading h1 {
+    font-size: 12vw;
+  }
+
+  .heading h2 {
+    font-size: 5vw;
+  }
+
+  .heading h3 {
+    font-size: 3vw;
+  }
+
+  .animal-icons {
+    width: 92%;
+    height: 30%;
+  }
+
+  .animal-icons img {
+    max-width: 20vw;
+  }
+
+  .cow-info-1 {
+    border-radius: 8px 12px;
+  }
+
+  .cow-info-2 {
+    border-radius: 8px;
+  }
+
+  .benefits-text h1 {
+    font-size: 8vw;
+  }
+
+  .benefits-text h2 {
+    padding: 5px;
+  }
+
+  .cows-section {
+    margin: 25px;
+    padding: 0;
+  }
+
+  .cow-info-1 ul,
+  .cow-info-2 ul {
+    font-size: 12px;
+    margin: 0;
+    padding: 0;
+  }
+
+  .benefits-text p,
+  .text-flex .text-one,
+  .text-flex .text-two,
+  .benefits-text h2,
+  .recipes h2,
+  .recipes p,
+  footer {
+    font-size: 14px;
+  }
+
+  .recipe-images {
+    width: 80vw;
+    align-items: center;
+  }
+
+  .recipes h2 {
+    font-size: 6.5vw;
+  }
+
+  .last-container {
+    overflow: hidden;
+    width: 100%;
+    height: 50vh;
+  }
+
+  .last-container .birds-img {
+    width: 80vw;
+  }
+  .last-container iframe {
+    width: 80vw;
+  }
+}
